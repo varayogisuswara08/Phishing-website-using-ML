@@ -41,8 +41,15 @@ flowchart TD
 - Ligh GBM
 - Git hub 
 ##
-
-
+# URL feature analyzed 
+Depending on the implementation and dataset.The model detects the following features:
+- URL length
+- HTTPS indidcators 
+- Number of subdomains
+- URL shoteing services
+- Special characteristics
+- Ip address presence
+## 
 
 
 
