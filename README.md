@@ -11,18 +11,36 @@ This project uses machine learning and Explainable AI to detcet suspicious URLs 
 The main idea of this project is detecting the URL is phishing or legitimate and giving the user the correct URL and the length of the URL.
 ##
 # IDEA
-User Enters URL
-     |
-URL preprocessing
-     |
-Feature Extraction
-     |
-Machine learning model
-     |
-Phishing/legitimate
-     |
-Analyzeing
-
+```mermaid
+flowchart TD
+    A[User enters URL] --> B[URL Preprocessing]
+    B --> C[Machine Learning Model]
+    C --> D{Prediction}
+    D --> E
+    E -->|Safe| F[Low Risk Result]
+    E -->|Phishing| G[High Risk Result]
+    F --> H[Risk Score and Explanation]
+    G --> H
+    H --> I[Display on Web Dashboard]
+```
+##
+# 📎Features 
+- Detcting phishing website
+- URL analysis
+- explainable score
+- compared model predictions
+- Trains SVM model
+- preprocessing the data
+##
+# 🧑‍💻Tools used 
+- Python
+- Numpy
+- Mathplotlib
+- SVM
+- Vs code
+- Ligh GBM
+- Git hub 
+##
 
 
 
